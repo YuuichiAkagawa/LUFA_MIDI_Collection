@@ -1,0 +1,91 @@
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0110
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	10
+Vendor  ID:		09E8
+Product ID:		007C
+Revision ID:		0100
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	00
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0065
+Num.intf:		02
+Conf.value:		01
+Conf.string:		00
+Attr.:			A0
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		01
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	010001090001010904
+
+Interface descriptor:
+Intf.number:		01
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		07
+Type:		24
+Contents:	01000141000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020101000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020202000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030103010201000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030204010101000905
+
+Endpoint descriptor:
+Endpoint address:	01
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101010905
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101033659
+
+
+Addr:1(0.0.1)
