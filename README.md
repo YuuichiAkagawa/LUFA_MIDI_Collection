@@ -2,6 +2,7 @@
 Collection of USB MIDI descriptor for [LUFA][LUFA].
 
 This is USB MIDI Host debug helper.
+Build with LUFA-151115
 
 ## License
 
