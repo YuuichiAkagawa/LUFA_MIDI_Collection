@@ -1,0 +1,236 @@
+01
+--
+String Descriptors:
+Manufacturer:		NUX
+Product:		NUX MG-300 AUDIO
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0200
+Device class:		EF
+Device Subclass:	02
+Device Protocol:	01
+Max.packet size:	40
+Vendor  ID:		1FC9
+Product ID:		8260
+Revision ID:		0100
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	03
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		013E
+Num.intf:		04
+Conf.value:		01
+Conf.string:		00
+Attr.:			C0
+Max.pwr:		01
+Unknown descriptor:
+Length:		08
+Type:		0B
+Contents:	000301002000
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		01
+Intf. Protocol:		20
+Intf.string:		00
+
+<<<AUDIO_CONTROL>>>
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	01000208650000
+Unknown descriptor:
+Length:		08
+Type:		24
+Contents:	0A2903070000
+Unknown descriptor:
+Length:		08
+Type:		24
+Contents:	0B2801290300
+Unknown descriptor:
+Length:		11
+Type:		24
+Contents:	020201010028020000000000000000
+Unknown descriptor:
+Length:		12
+Type:		24
+Contents:	060A020F0000000F0000000F00000000
+Unknown descriptor:
+Length:		0C
+Type:		24
+Contents:	03140103000A28000000
+Unknown descriptor:
+Length:		11
+Type:		24
+Contents:	020101020028020000000000000000
+Unknown descriptor:
+Length:		0C
+Type:		24
+Contents:	03160101000228000000
+
+Interface descriptor:
+Intf.number:		01
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		02
+Intf. Protocol:		20
+Intf.string:		00
+
+<<<AUDIO_STREAMING>>>
+
+Interface descriptor:
+Intf.number:		01
+Alt.:			01
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		02
+Intf. Protocol:		20
+Intf.string:		00
+
+<<<AUDIO_STREAMING>>>
+Unknown descriptor:
+Length:		10
+Type:		24
+Contents:	0102000101000000020000000000
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	02010418
+
+Endpoint descriptor:
+Endpoint address:	01
+Attr.:			05(Isochronous)
+Max.pkt size:		0258
+Polling interval:	04
+Unknown descriptor:
+Length:		08
+Type:		25
+Contents:	010000000000
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			11(Isochronous)
+Max.pkt size:		0004
+Polling interval:	04
+
+Interface descriptor:
+Intf.number:		02
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		02
+Intf. Protocol:		20
+Intf.string:		00
+
+<<<AUDIO_STREAMING>>>
+
+Interface descriptor:
+Intf.number:		02
+Alt.:			01
+Endpoints:		01
+Intf. Class:		01
+Intf. Subclass:		02
+Intf. Protocol:		20
+Intf.string:		00
+
+<<<AUDIO_STREAMING>>>
+Unknown descriptor:
+Length:		10
+Type:		24
+Contents:	0116000101000000020000000000
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	02010418
+
+Endpoint descriptor:
+Endpoint address:	82
+Attr.:			05(Isochronous)
+Max.pkt size:		0258
+Polling interval:	04
+Unknown descriptor:
+Length:		08
+Type:		25
+Contents:	010000000000
+
+Interface descriptor:
+Intf.number:		03
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		04
+
+<<<MIDIStreaming>>>
+
+MS Interface descriptor
+07240100014100
+DescriptorSubtype: 01
+USB_DESCRIPTOR_CS_INTERFACE :	MS_HEADER
+MIDIStreaming SubClass Specification Release number: 0100
+wTotalLength:		0041
+
+MS Interface descriptor
+062402010100
+DescriptorSubtype: 02
+USB_DESCRIPTOR_CS_INTERFACE :	MIDI_IN_JACK(Embedded)
+JackType:	01
+JackID:		01
+
+MS Interface descriptor
+062402020200
+DescriptorSubtype: 02
+USB_DESCRIPTOR_CS_INTERFACE :	MIDI_IN_JACK(External)
+JackType:	02
+JackID:		02
+
+MS Interface descriptor
+092403010301020100
+DescriptorSubtype: 03
+USB_DESCRIPTOR_CS_INTERFACE :	MIDI_OUT_JACK(Embedded)
+JackType:	01
+JackID:		03
+NrInputPins:	01
+020100
+
+MS Interface descriptor
+092403020401010100
+DescriptorSubtype: 03
+USB_DESCRIPTOR_CS_INTERFACE :	MIDI_OUT_JACK(External)
+JackType:	02
+JackID:		04
+NrInputPins:	01
+010100
+
+Endpoint descriptor:
+Endpoint address:	04
+Attr.:			02(Bulk)
+Max.pkt size:		0100
+Polling interval:	00
+
+MS Endpoint descriptor
+0525010101
+USB_DESCRIPTOR_CS_ENDPOINT :	MS_GENERAL
+bNumEmbMIDIJack: 01
+01
+
+Endpoint descriptor:
+Endpoint address:	83
+Attr.:			02(Bulk)
+Max.pkt size:		0100
+Polling interval:	00
+
+MS Endpoint descriptor
+0525010103
+USB_DESCRIPTOR_CS_ENDPOINT :	MS_GENERAL
+bNumEmbMIDIJack: 01
+03
